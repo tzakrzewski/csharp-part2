@@ -6,7 +6,25 @@ namespace CsharpPart2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //ExercisesClass - StopWatch Exercise
+            //var stopWatch = new StopWatch();
+            //stopWatch.Start();
+            //System.Threading.Thread.Sleep(45000);
+            //stopWatch.Stop();
+            //stopWatch.Duration();
+
+            //ExercisesClass - Post Exercise
+            //var post = new Post("Breakfast", "This is a sample post, green eggs and hams says Sam I Am!");
+            //post.SetUpVote();
+            //post.SetUpVote();
+            //post.SetDownVote();
+            //post.SetDownVote();
+            //post.SetDownVote();
+            //post.DisplayVotes();
+
+            var post = new Post("Title", "Description");
+            post.TestingDisplay();
         }
     }
 }
+
