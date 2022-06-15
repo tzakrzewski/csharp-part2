@@ -39,6 +39,7 @@ namespace CsharpPart2
             Console.WriteLine(String.Format("Title: {0}", _title));
             Console.WriteLine(String.Format("Description: {0}", _description));
             Console.WriteLine(String.Format("Up Votes: {0} Down Votes: {1}", _upVote, _downVote));
+            Console.WriteLine(String.Format("Created: {0}", _created));
         }
         public void TestingDisplay()
         {

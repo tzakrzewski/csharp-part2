@@ -22,8 +22,15 @@ namespace CsharpPart2
             //post.SetDownVote();
             //post.DisplayVotes();
 
-            var post = new Post("Title", "Description");
-            post.TestingDisplay();
+            //ExercisesInheritance - Stack
+            var stack = new Stack();
+            stack.Push(1); 
+            stack.Push(2); 
+            stack.Push(3);
+            Console.WriteLine(stack.Pop()); 
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
+
         }
     }
 }
