@@ -7,6 +7,7 @@ namespace CsharpPart2
     class Stack
     {
         private readonly List<object> _stack = new List<object>();
+        
         public void Push(object obj)
         {
             if (obj == null)
